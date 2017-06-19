@@ -1,0 +1,22 @@
+Inheritance: Imaginando el código como una jerarquía. Las clases que están debajo de la primera clase, toman métodos o características de la primera clase. Ademas las clases debajo van agregando diferentes características que son únicas para cada clase. 
+
+Composition: La composición dentro del lenguaje Ruby es otro tipo de relación. Esta relación no es como la hereditaria(father-child) sino que con la composición cuando se tienen dos clases, estas dos clases tienen una relación, pero no una de herencia. 
+
+Encapsulation: La encapsulación es la representación interna de un objeto que esta escondido de todo lo que es externo a ese objeto. Se puede crear una variable externa que llame a este objeto para imprimir lo que esta adentro, pero el output no va a ser el mismo aunque tomen la misma variable que otro objeto. Por eso es encapsulación.
+
+Duck Typing: Ruby a diferencia de otros lenguajes orientados a objetos (OOP), no declara variables con el tipo de variable, método o clase. Duck typing significa que en Ruby se definen objetos no por como son sino cuales son las acciones que puede hacer.
+
+The Law of Demeter (ej.): Es una regla formulada en 1987. El lema es que “Solo hablar con amigos.” Viéndolo desde un punto de vista técnico, es que una unidad, objeto solo tenga información limitada sobre otras unidades u objetos, haciendo que el código sea más enfocado, rápido, y no tan revoltoso.
+
+Overriding Methods (and using super): Es un característica empleada en una clase y se utiliza en una sub-clase con características agregadas. En el método overriding, se sobre escribe alguna característica. En el método super, se agrega una característica a el método ya llamado.
+
+Modules: Son similares a las clases. Dentro de los modules tienen una colección de métodos, constantes, variables y otros modules. En lugar de escribir class y su nombre, con modules, se escribe module y el nombre de dicho module.
+
+Scope: El scope es donde la variable es visible, es decir, donde todos sus métodos se pueden utilizar. Son variables, constantes, métodos que están disponibles en todo momento. Es decir, no están encapsulado, sino que es completamente lo opuesto.
+
+Private vs Public Methods
+	Instance vs Class methods and variables: La diferencia entre los dos es que los métodos de clase solamente se pueden utilizar en clases, mientras que las métodos de instancia solamente se pueden llamar en las instancias de una clase.
+
+	Polymorphism: En Ruby es mandar el mismo mensaje a diferentes objetos y obtener diferentes resultados. Esto se puede lograr con herencia, Duck Typing, Decorator Pattern y Antes y después. 
+
+Separation of Concerns: Es simplemente separar el código por las diferentes funcionalidad del programa, mantener todo separado para que pueda entenderse mejor y no revolver código. Esto con el fin de hacer un código mas limpio, eficiente, rápido, y sin revolturas, así diminuyendo errores.
